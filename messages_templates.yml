@@ -1,0 +1,65 @@
+issue_updated: "{{user.displayName}} updated the issue `{{issue.key}} - {{issue.fields.summary}} on project {{issue.fields.project.name}} \n
+- status: {{issue.fields.status.name}} \n
+- type: {{issue.fields.issuetype.name}} \n
+- priority: {{issue.fields.priority.name}} \n
+- components: {{components}} \n
+- labels: {{labels}} \n
+- fixVersions: {{fixVersions}} \n
+- epicLink: {{domain}}/browse/{{epicLink}} \n
+- attachment: {{attachment}} \n
+- created by: {{issue.fields.creator.displayName}} \n
+- assigned to: {{issue.fields.assignee.displayName}} \n
+- reporter: {{issue.fields.reporter.displayName}}` \n
+* See more {{domain}}/browse/{{issue.key}}"
+
+issue_created: "{{user.displayName}} created the issue `{{issue.key}} - {{issue.fields.summary}} on project {{issue.fields.project.name}} \n
+- status: {{issue.fields.status.name}} \n
+- type: {{issue.fields.issuetype.name}} \n
+- priority: {{issue.fields.priority.name}} \n
+- components: {{components}} \n
+- labels: {{labels}} \n
+- fixVersions: {{fixVersions}} \n
+- epicLink: {{domain}}/browse/{{epicLink}} \n
+- attachment: {{attachment}} \n
+- created by: {{issue.fields.creator.displayName}} \n
+- assigned to: {{issue.fields.assignee.displayName}} \n
+- reporter: {{issue.fields.reporter.displayName}}` \n
+* See more {{domain}}/browse/{{issue.key}}"
+
+issue_assigned: "{{user.displayName}} assigned the issue `{{issue.key}} - {{issue.fields.summary}} on project {{issue.fields.project.name}} \n
+- status: {{issue.fields.status.name}} \n
+- type: {{issue.fields.issuetype.name}} \n
+- priority: {{issue.fields.priority.name}} \n
+- components: {{components}} \n
+- labels: {{labels}} \n
+- fixVersions: {{fixVersions}} \n
+- epicLink: {{domain}}/browse/{{epicLink}} \n
+- attachment: {{attachment}} \n
+- created by: {{issue.fields.creator.displayName}} \n
+- assigned to: {{issue.fields.assignee.displayName}} \n
+- reporter: {{issue.fields.reporter.displayName}}` \n
+* See more {{domain}}/browse/{{issue.key}}"
+
+issue_generic: "{{user.displayName}} updated the issue `{{issue.key}} - {{issue.fields.summary}} on project {{issue.fields.project.name}} \n
+- status: {{issue.fields.status.name}} \n
+- type: {{issue.fields.issuetype.name}} \n
+- priority: {{issue.fields.priority.name}} \n
+- components: {{components}} \n
+- labels: {{labels}} \n
+- fixVersions: {{fixVersions}} \n
+- epicLink: {{domain}}/browse/{{epicLink}} \n
+- attachment: {{attachment}} \n
+- created by: {{issue.fields.creator.displayName}} \n
+- assigned to: {{issue.fields.assignee.displayName}} \n
+- reporter: {{issue.fields.reporter.displayName}}` \n
+* See more {{domain}}/browse/{{issue.key}}"
+
+comment_created: "{{user.displayName}} created comment `in issue {{issue.key}} - {{issue.fields.summary}} on project {{issue.fields.project.name}}` \n
+- comment: {{commentBody}} \n
+* See more {{domain}}/browse/{{issue.key}}"
+comment_updated: "{{user.displayName}} updated comment `in issue {{issue.key}} - {{issue.fields.summary}} on project {{issue.fields.project.name}}` \n
+- comment: {{commentBody}} \n
+* See more {{domain}}/browse/{{issue.key}}"
+comment_deleted: "{{user.displayName}} deleted comment `in issue {{issue.key}} - {{issue.fields.summary}} on project {{issue.fields.project.name}}` \n
+- comment: {{commentBody}} \n
+* See more {{domain}}/browse/{{issue.key}}"

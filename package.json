@@ -1,0 +1,46 @@
+{
+  "_from": "jira-webhook-discord",
+  "_id": "jira-webhook-discord@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-9BdoDY4U1hDs/ui0qJkiACjM8x1nJH6PF+j8IkaXMTEu992yQkWUSLli1bohhbdYqVmLNI01/tbCQwtd9nWCsg==",
+  "_location": "/jira-webhook-discord",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jira-webhook-discord",
+    "name": "jira-webhook-discord",
+    "escapedName": "jira-webhook-discord",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jira-webhook-discord/-/jira-webhook-discord-1.0.0.tgz",
+  "_shasum": "b7d3cd5e0203e407e1c198dba9669ca86b650993",
+  "_spec": "jira-webhook-discord",
+  "_where": "/Users/a/jira-discord",
+  "bundleDependencies": false,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "discord-bot-webhook": "^1.0.4",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "js-yaml": "^3.11.0",
+    "morgan": "~1.9.0"
+  },
+  "deprecated": false,
+  "description": "This package permit to use webhook between jira and discord, so you know what happen on your jira directly on your discord server.",
+  "name": "jira-webhook-discord",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "version": "1.0.0"
+}
